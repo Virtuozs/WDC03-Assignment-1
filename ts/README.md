@@ -24,9 +24,7 @@ console.log(rectangleArea(10, 15));
 ```
 ### Explanation:
 - This function calculates the area of a rectangle using the formula:
-  $$
-  \text{Area} = \text{length} \times \text{width}
-  $$
+  $$\text{Area} = \text{length} \times \text{width}$$
 - It takes two parameters of type `number`: `length` and `width`.
 - Returns the product of `length` and `width`.
 
