@@ -52,7 +52,7 @@ console.log(circleProps(10));
 - This function calculates **diameter, circumference, and area** of a circle.
 - **Diameter**:  
 
-  $$\text{Diameter} = 2 \times \text{radius)$$
+  $$\text{Diameter} = 2 \times \text{radius}$$
 
 - **Circumference**:  
   
