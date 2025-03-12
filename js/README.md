@@ -24,9 +24,8 @@ console.log(rectangleArea(10, 15));
 ```
 ### Explanation:
 - This function calculates the area of a rectangle using the formula:
-  $$
-  \text{Area} = \text{length} \times \text{width}
-  $$
+
+  $$\text{Area} = \text{length} \times \text{width}$$
 
 - It takes two parameters: `length` and `width`.
 - Returns the product of `length` and `width`.
@@ -52,17 +51,17 @@ console.log(circleProps(10));
 ### Explanation:
 - This function calculates **diameter, circumference, and area** of a circle.
 - **Diameter**:  
-  $$
-  \text{Diameter} = 2 \times \text{radius}
-  $$
+
+  $$\text{Diameter} = 2 \times \text{radius}$$
+
 - **Circumference**:  
-  $$
-  \text{Circumference} = 2 \times \pi \times \text{radius}
-  $$
+  
+  $$\text{Circumference} = 2 \times \pi \times \text{radius}$$
+
 - **Area**:  
-  $$
-  \text{Area} = \pi \times \text{radius}^2
-  $$
+  
+  $$\text{Area} = \pi \times \text{radius}^2$$
+
 - `toFixed()` ensures values are rounded to 4 decimal places for circumference and 3 for area.
 
 ---
@@ -78,9 +77,9 @@ console.log(thirdAngle(40, 60));
 ### Explanation:
 - The sum of a triangle’s interior angles is **180°**.
 - The third angle is calculated as:
-  $$
-  \text{Third Angle} = 180° - (\text{First Angle} + \text{Second Angle})
-  $$
+
+  $$\text{Third Angle} = 180° - (\text{First Angle} + \text{Second Angle})$$
+
 - The function returns the missing angle.
 
 ---
@@ -101,9 +100,9 @@ console.log(dateDifference("2025-03-08", "2025-03-10"));
 - Converts date strings into `Date` objects.
 - Uses `getTime()` to get the time in milliseconds.
 - Converts the difference into **days** using:
-  $$
-  \frac{\text{milliseconds difference}}{1000 \times 60 \times 60 \times 24}
-  $$
+  
+  $$\frac{\text{milliseconds difference}}{1000 \times 60 \times 60 \times 24}$$
+
 - `Math.abs()` ensures a positive result.
 - `Math.ceil()` rounds up to the nearest whole number.
 
